@@ -143,3 +143,44 @@ body {
     font-family: 'Bungee Spice', sans-serif;
 
 }
+
+.recordes {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recordes .heading {
+    text-align: center;
+    font-size: 60px;
+    font-family:'medievalsharp', cursive;
+}
+
+.recordes table {
+    border-collapse: collapse;
+    font-family: 'medievalsharp', cursive;"
+}
+
+.recordes th {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    font-size: 36px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.recordes td {
+    font-size: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.recordes tr:nth-child(even) {
+    background-color: #C0C0C0;
+}
+
+.recordes td:first-child, td:nth-child(3) {
+    text-align: right;
+}
