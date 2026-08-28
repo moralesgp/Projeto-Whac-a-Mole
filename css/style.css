@@ -178,9 +178,18 @@ body {
 }
 
 .recordes tr:nth-child(even) {
-    background-color: #C0C0C0;
+    background-color: #fcfbfb;
 }
 
 .recordes td:first-child, td:nth-child(3) {
+    text-align: center;
+}
+
+.recordes td:first-child, .recordes td:nth-child(4) {
     text-align: right;
 }
+
+.recordes td:first-child, .recordes td:nth-child(0) {
+    text-align: center ;
+}
+
